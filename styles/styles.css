@@ -1,0 +1,28 @@
+body {
+  font-family: Trebuchet MS;
+  font-size: 62.5%;
+
+  background: #333;
+}
+
+.main-content-container {
+  display: table;
+}
+
+.front-page-container {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+h1,h2, button {
+  color: #fff;
+}
+
+h1 {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 1.0rem;
+  font-weight: 100;
+}
