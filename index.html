@@ -3,19 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <title>Cameron Dubas</title>
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i|Source+Sans+Pro:400,400i,300" rel="stylesheet">
 
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/styles.css">
 
 </head>
 <body>
-  <section class="main-content-container">
-      <div class="front-page-container">
-        <h1>Cameron Dubas</h1>
-        <h2>Front-End Developer, nice guy.</h2>
-      </div>
+  <section class="c-hero">
+    <div class="c-hero__container">
+      <h1 class="c-hero__title">Cameron Dubas</h1>
+      <h2 class="c-hero__subtitle">Front-End Developer, nice guy.</h2>
+      <button class="c-hero__button"><a href="mailto:camerondubas@gmail.com">Contact</a></button>
+    </div>
   </section>
+
+  <div class="c-container__wrapper">
+    <section class="c-container">
+      <article class="c-project">
+        <img class="c-project__image" src="images/ch.png" alt="">
+        <div class="c-project__content">
+          <h2 class="c-project__title">Change Heroes Fundraising</h2>
+          <h3 class="c-project__subtitle">Online Fundraising Platform</h3>
+          <p class="c-project__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ducimus error eveniet iure pariatur rem, sed? Accusamus aliquam amet deserunt? Cumque, dolorum excepturi, fugit hic, ipsa magni maxime molestiae optio placeat quam quis repudiandae similique voluptatem! A assumenda autem eius enim esse facilis impedit odio, odit placeat vero. Dolorum, molestias!</p>
+          <button class="c-project__button"><a href="https://changeheroes.com">Website</a></button>
+        </div>
+      </article>
+
+      <article class="c-project">
+        <img class="c-project__image" src="images/dp.png" alt="">
+        <div class="c-project__content">
+          <h2 class="c-project__title">Daily Programmer Challenges</h2>
+          <h3 class="c-project__subtitle">A Collection of solutions to programming logic puzzles</h3>
+          <p class="c-project__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ducimus error eveniet iure pariatur rem, sed? Accusamus aliquam amet deserunt? Cumque, dolorum excepturi, fugit hic, ipsa magni maxime molestiae optio placeat quam quis repudiandae similique voluptatem! A assumenda autem eius enim esse facilis impedit odio, odit placeat vero. Dolorum, molestias!</p>
+          <button class="c-project__button"><a href="https://github.com/camerondubas/daily-programmer">GitHub</a></button>
+        </div>
+      </article>
+
+      <article class="c-project">
+        <img class="c-project__image" src="images/ch.png" alt="">
+        <div class="c-project__content">
+          <h2 class="c-project__title">Node.js RSS API</h2>
+          <h3 class="c-project__subtitle">Simple CORS-Enabled API to convert and RSS Feed into useable JSON</h3>
+          <p class="c-project__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ducimus error eveniet iure pariatur rem, sed? Accusamus aliquam amet deserunt? Cumque, dolorum excepturi, fugit hic, ipsa magni maxime molestiae optio placeat quam quis repudiandae similique voluptatem! A assumenda autem eius enim esse facilis impedit odio, odit placeat vero. Dolorum, molestias!</p>
+          <button class="c-project__button"><a href="https://rss-api.herokuapp.com/feed?url=http://www.feedforall.com/blog-feed.xml">Live Demo</a></button>
+          <button class="c-project__button"><a href="https://github.com/camerondubas/rss-api">GitHub</a></button>
+        </div>
+      </article>
+
+      <article class="c-project">
+        <img class="c-project__image" src="images/ch.png" alt="">
+        <div class="c-project__content">
+          <h2 class="c-project__title">Angular Starter Project</h2>
+          <h3 class="c-project__subtitle">All in one Angular Quick-Start. Webpack, Babel, ESLint, and more.</h3>
+          <p class="c-project__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ducimus error eveniet iure pariatur rem, sed? Accusamus aliquam amet deserunt? Cumque, dolorum excepturi, fugit hic, ipsa magni maxime molestiae optio placeat quam quis repudiandae similique voluptatem! A assumenda autem eius enim esse facilis impedit odio, odit placeat vero. Dolorum, molestias!</p>
+          <button class="c-project__button"><a href="/">GitHub</a></button>
+        </div>
+      </article>
+
+      <article class="c-project">
+        <img class="c-project__image" src="images/cd.png" alt="">
+        <div class="c-project__content">
+          <h2 class="c-project__title">This site.</h2>
+          <h3 class="c-project__subtitle">Pretty nifty, eh?</h3>
+          <p class="c-project__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ducimus error eveniet iure pariatur rem, sed? Accusamus aliquam amet deserunt? Cumque, dolorum excepturi, fugit hic, ipsa magni maxime molestiae optio placeat quam quis repudiandae similique voluptatem! A assumenda autem eius enim esse facilis impedit odio, odit placeat vero. Dolorum, molestias!</p>
+          <button class="c-project__button"><a href="/">Website</a></button>
+        </div>
+      </article>
+
+    </section>
+  </div>
+
+<footer class="c-footer">
+  <div class="c-footer__container">
+    <div class="c-about">
+      <img src="images/cameron.jpg" alt="">
+      <h3 class="c-footer__header">About Me</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto aspernatur at consequuntur cumque delectus, deleniti dicta dignissimos ea eos esse ex harum id illum impedit iste labore magni maiores minima nobis numquam omnis praesentium quisquam ratione rem reprehenderit tempora tenetur ullam ut voluptate! Consequatur itaque minus natus officia suscipit.</p>
+    </div>
+
+    <div class="c-social">
+      <h3 class="c-footer__header">Elsewhere</h3>
+      <ul>
+        <li><a href="https://github.com/camerondubas">GitHub</a></li>
+        <li><a href="https://twitter.com/camerondubas">Twitter</a></li>
+        <li><a href="https://ca.linkedin.com/in/cameron-dubas">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
