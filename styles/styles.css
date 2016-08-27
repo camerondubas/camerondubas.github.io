@@ -93,6 +93,9 @@ button a {
 }
 
 @media (min-width: 640px) {
+    .c-hero {
+        width: 100%;
+    }
     .c-hero__title {
         font-size: 5rem;
         text-shadow: 0 0px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
