@@ -65,13 +65,17 @@ button a {
 }
 
 .c-hero__title {
-    font-size: 5rem;
-    text-shadow: 0 0px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    font-size: 3.33rem;
+    text-shadow: 0 0 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .c-hero__subtitle {
-    font-size: 3rem;
+    font-size: 2rem;
     color: rgba(0,0,0,.35);
+}
+
+.c-hero__subtitle span {
+    display: block;
 }
 
 .c-hero__button {
@@ -86,6 +90,20 @@ button a {
     border-radius: 1px;
     border: 2px solid white;
     box-shadow: 0 0px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+@media (min-width: 640px) {
+    .c-hero__title {
+        font-size: 5rem;
+        text-shadow: 0 0px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+
+    .c-hero__subtitle {
+        font-size: 3rem;
+    }
+    .c-hero__subtitle span {
+        display: inline;
+    }
 }
 
 /* Container */
