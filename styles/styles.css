@@ -153,6 +153,12 @@ button:hover, .c-container, .c-footer .c-about img {
     float: left;
     width: 100%;
 }
+.c-project__content a {
+    font-style: italic;
+}
+.c-project__content a:hover {
+    text-decoration: underline;
+}
 
 .c-project__title {
     font-family: 'Old Standard TT', serif;
@@ -166,17 +172,23 @@ button:hover, .c-container, .c-footer .c-about img {
     color: rgba(0,0,0,.5)
 }
 
-.c-project__button {
+.c-project .c-project__button {
     border: 1px solid;
     margin-top: 1rem;
     transition: all .2s;
 }
-
-.c-project__button:hover {
+.c-project .c-project__button:hover {
     background: #4D85FC;
     color: white;
     border-radius: 1px;
     border: 1px solid #4D85FC;
+}
+
+.c-project .c-project__button a {
+    font-style: normal;
+}
+.c-project .c-project__button a:hover {
+    text-decoration: none;
 }
 
 @media (min-width: 640px) {
@@ -187,6 +199,38 @@ button:hover, .c-container, .c-footer .c-about img {
     .c-project__content {
         width: calc(70% - 1rem);
     }
+}
+
+.c-project__title__other {
+    font-family: 'Old Standard TT', serif;
+    font-size:1.25rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.c-project.c--other-projects .c-project__title{
+    font-size: 1.25rem;
+}
+
+.c-project.c--other-projects .c-project__subtitle{
+    font-size: .9rem;
+    margin-bottom: .5rem;
+}
+
+.c-project.c--other-projects .c-project__button {
+    margin-top:0;
+    margin-bottom:2rem;
+}
+
+.c-project.c--other-projects .c-project__content {
+    margin-bottom:1.5rem;
+}
+
+.c-project.c--other-projects .c-project__button {
+    margin-bottom:0;
+}
+.c-project.c--other-projects .c-project__button a{
+    font-size:.5rem;
+    padding: .25rem 1rem;
 }
 
 /* Footer */
