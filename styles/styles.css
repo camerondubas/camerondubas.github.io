@@ -249,6 +249,9 @@ button:hover, .c-container, .c-footer .c-about img {
     margin-bottom:1rem;
 }
 
+.c-footer p {
+    margin-bottom: 1rem;
+}
 .c-footer:after {
     content:"";
     display:block;
