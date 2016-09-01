@@ -17,6 +17,12 @@
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/styles.css">
 
+  <meta property="og:url"                content="https://camerondubas.lol" />
+  <meta property="og:type"               content="website" />
+  <meta property="og:title"              content="Cameron Dubas" />
+  <meta property="og:description"        content="Front-End Developer, nice guy." />
+  <meta property="og:image"              content="images/fb.png" />
+
   <meta name="theme-color" content="#3257a4">
 
 </head>
@@ -56,7 +62,7 @@
           <h3 class="c-project__subtitle">Rebuild of the Change Heroes Platform</h3>
           <p class="c-project__body">
             This is a SaaS version of the original Change Heroes Platform. It is a technical improvement in every aspect.
-            It is built on an Angular Front-end and a Node REST API with PostgreSQL and a Database with scalability in mind.
+            It is built on an Angular Front-end and a Node REST API with PostgreSQL as a database with scalability in mind.
             Some major improvements include lazy-loading of assets, mobile-first development approach, and a modern Webpack workflow deployed to AWS via Docker Containers.</p>
           <button class="c-project__button"><a href="https://jericho.changeheroes.com">Website</a></button>
         </div>
@@ -127,31 +133,41 @@
     </section>
   </div>
 
-<footer class="c-footer">
-  <div class="c-footer__container">
-    <div class="c-about">
-      <img src="images/cameron.jpg" alt="">
-      <h3 class="c-footer__header">About Me</h3>
-      <p>
-        I got into coding because I was curious. Curious about how all these amazing things we take for granted work.
-        I wanted to know exactly how a bunch of seemingly gibberish (code) could create something as massive as Facebook.
-        So I started teaching myself to web development, fell in love, and haven't stopped.
-      </p>
-      <p>
-        Whether is building a project on my Raspberry Pi, Listening to a Tech Podcast, or just messing with my Hue Lights;
-        I can't go a day without living and breathing Tech.
-      </p>
-    </div>
+  <footer class="c-footer">
+    <div class="c-footer__container">
+      <div class="c-about">
+        <img src="images/cameron.jpg" alt="">
+        <h3 class="c-footer__header">About Me</h3>
+        <p>
+          I got into coding because I was curious. Curious about how all these amazing things we take for granted work.
+          I wanted to know exactly how a bunch of seemingly gibberish (code) could create something as massive as Facebook.
+          So I started teaching myself to web development, fell in love, and haven't stopped.
+        </p>
+        <p>
+          Whether is building a project on my Raspberry Pi, Listening to a Tech Podcast, or just messing with my Hue Lights;
+          I can't go a day without living and breathing Tech.
+        </p>
+      </div>
 
-    <div class="c-social">
-      <h3 class="c-footer__header">Elsewhere</h3>
-      <ul>
-        <li><a href="https://github.com/camerondubas">GitHub</a></li>
-        <li><a href="https://twitter.com/camerondubas">Twitter</a></li>
-        <li><a href="https://ca.linkedin.com/in/cameron-dubas">LinkedIn</a></li>
-      </ul>
+      <div class="c-social">
+        <h3 class="c-footer__header">Elsewhere</h3>
+        <ul>
+          <li><a href="https://github.com/camerondubas">GitHub</a></li>
+          <li><a href="https://twitter.com/camerondubas">Twitter</a></li>
+          <li><a href="https://ca.linkedin.com/in/cameron-dubas">LinkedIn</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
+
+  <script>
+    (function(c,a,m,e,r,o,n){c['GoogleAnalyticsObject']=r;c[r]=c[r]||function(){
+          (c[r].q=c[r].q||[]).push(arguments)},c[r].l=1*new Date();o=a.createElement(m),
+        n=a.getElementsByTagName(m)[0];o.async=1;o.src=e;n.parentNode.insertBefore(o,n)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-83542278-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </body>
 </html>
